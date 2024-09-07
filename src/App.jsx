@@ -13,6 +13,10 @@ const [value, setValue] = useState('');
             <div className='display'>
               <input type="text" value={value}/>
             </div>
+
+
+
+            {/* test */}
             <div>
               <input type="button" value="AC" onClick={e =>setValue('')}/>
               <input type="button" value="DEl" onClick={e =>setValue(value.slice(0, -1))}/>
